@@ -1,11 +1,8 @@
 package com.tulip.savefish;
 
 import com.badlogic.gdx.ApplicationListener;
-import com.badlogic.gdx.graphics.Texture;
 
 public class FirstGame implements ApplicationListener {
-	
-	private Texture texture;
 
 	@Override
 	public void create() {
