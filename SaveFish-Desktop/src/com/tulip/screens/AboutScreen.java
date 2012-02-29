@@ -1,7 +1,6 @@
 package com.tulip.screens;
 
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.graphics.Texture;
 
 
 public class AboutScreen implements Screen {
