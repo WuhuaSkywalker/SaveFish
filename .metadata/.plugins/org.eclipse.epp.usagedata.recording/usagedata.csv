@@ -124,3 +124,28 @@ executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.t
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496633947
 error,log,,,"The current branch is not configured for pull",1330496633976
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496635133
+executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.team.SimplePush",1330496640360
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496640644
+error,log,,,"An exception occurred during push on URI https://provemyself@github.com/provemyself/SaveFish.git: An internal Exception occurred during push: https://provemyself@github.com/provemyself/SaveFish.git: not authorized",1330496642953
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496642972
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496643033
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496644855
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496646725
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497018856
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497022069
+started,bundle,org.eclipse.ui.cheatsheets,3.4.100.v20110425,"org.eclipse.ui.cheatsheets",1330497035086
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1330497048795
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.copy",1330497052962
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497576386
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.window.preferences",1330497576418
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1330497578820
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.delete.line",1330497582049
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1330497582845
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1330497584374
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497589381
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497602657
+executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.team.Commit",1330497602673
+executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.team.SimplePush",1330497609287
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497609568
+error,log,,,"An exception occurred during push on URI https://provemyself@github.com/provemyself/SaveFish.git: An internal Exception occurred during push: https://provemyself@github.com/provemyself/SaveFish.git: not authorized",1330497611970
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330497611986

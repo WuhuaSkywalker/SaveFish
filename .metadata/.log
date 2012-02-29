@@ -3474,3 +3474,20 @@ Caused by: org.eclipse.jgit.errors.TransportException: https://provemyself@githu
 	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
 	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:159)
 	... 4 more
+
+!ENTRY org.eclipse.egit.core 4 0 2012-02-29 14:40:11.939
+!MESSAGE An exception occurred during push on URI https://provemyself@github.com/provemyself/SaveFish.git: An internal Exception occurred during push: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:163)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:227)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:149)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:209)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:446)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:365)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:159)
+	... 4 more
