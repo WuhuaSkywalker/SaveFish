@@ -45,3 +45,33 @@ java.io.IOException: Stream closed
 	at org.eclipse.ecf.provider.filetransfer.retrieve.AbstractRetrieveFileTransfer$1.performFileTransfer(AbstractRetrieveFileTransfer.java:173)
 	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:73)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-02-29 12:52:07.273 -----------------------------------------------
+eclipse.buildId=M20110909-1335
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /home/zhujianxin/EclipseJeeWorkspace/SaveFish -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.core 4 0 2012-02-29 15:14:48.633
+!MESSAGE An exception occurred during push on URI git@github.com:provemyself/SaveFish.git: An internal Exception occurred during push: git@github.com:provemyself/SaveFish.git: Auth cancel
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:156)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:227)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:145)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:202)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: git@github.com:provemyself/SaveFish.git: Auth cancel
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:141)
+	at org.eclipse.jgit.transport.SshTransport.getSession(SshTransport.java:121)
+	at org.eclipse.jgit.transport.TransportGitSsh$SshPushConnection.<init>(TransportGitSsh.java:306)
+	at org.eclipse.jgit.transport.TransportGitSsh.openPush(TransportGitSsh.java:152)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:152)
+	... 4 more
+Caused by: com.jcraft.jsch.JSchException: Auth cancel
+	at com.jcraft.jsch.Session.connect(Session.java:451)
+	at org.eclipse.jgit.transport.JschConfigSessionFactory.getSession(JschConfigSessionFactory.java:116)
+	... 10 more
