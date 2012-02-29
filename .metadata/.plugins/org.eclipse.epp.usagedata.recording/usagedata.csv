@@ -99,3 +99,28 @@ activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",13304962035
 deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496205902
 started,bundle,org.eclipse.equinox.p2.garbagecollector,1.0.200.v20110815-1419,"org.eclipse.equinox.p2.garbagecollector",1330496207262
 activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496214192
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496215062
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496306204
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496308014
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496363039
+started,bundle,org.eclipse.ui.browser,3.3.101.v20111019-1723,"org.eclipse.ui.browser",1330496365214
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496365799
+started,bundle,org.eclipse.jsch.ui,1.1.300.R37x_v20111201-1600,"org.eclipse.jsch.ui",1330496375471
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.edit.paste",1330496479714
+error,log,,,"Creating directories for D:\\home\\zhujianxin\\EclipseJeeWorkspace\\.git:\\home\\zhujianxin\\EclipseJeeWorkspace\\SaveFish\\.git: failed",1330496505145
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496512491
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.window.preferences",1330496512508
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496515164
+started,bundle,org.eclipse.mylyn.java.tasks,3.4.0.v20100608-0100-e3x,"org.eclipse.mylyn.java.tasks",1330496598311
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496600787
+activated,editor,org.eclipse.jdt.ui,3.7.2.v20120109-1427,"org.eclipse.jdt.ui.CompilationUnitEditor",1330496601233
+executed,command,org.eclipse.ui.workbench.texteditor,3.7.0.v20110928-1504,"org.eclipse.ui.edit.text.delete.line",1330496603263
+executed,command,org.eclipse.ui,3.7.0.v20110928-1505,"org.eclipse.ui.file.save",1330496604337
+activated,view,org.eclipse.ui.navigator.resources,3.4.300.v20110928-1505,"org.eclipse.ui.navigator.ProjectExplorer",1330496606008
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496611403
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496628671
+executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.team.Commit",1330496628686
+executed,command,org.eclipse.egit.ui,1.1.0.201109151100-r,"org.eclipse.egit.ui.team.Pull",1330496633912
+deactivated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496633947
+error,log,,,"The current branch is not configured for pull",1330496633976
+activated,workbench,org.eclipse.ui.workbench,3.7.1.v20120104-1859,"",1330496635133
