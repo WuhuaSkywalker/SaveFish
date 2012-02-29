@@ -6,7 +6,6 @@ import com.badlogic.gdx.graphics.Texture;
 
 public class AboutScreen implements Screen {
 	
-	private Texture texture;
 
 	@Override
 	public void render(float delta) {
