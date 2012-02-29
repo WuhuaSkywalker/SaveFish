@@ -3330,3 +3330,63 @@ org.eclipse.core.internal.resources.ResourceException: Resource is out of sync w
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1410)
 !SUBENTRY 1 org.eclipse.core.resources 4 274 2012-02-29 14:10:02.914
 !MESSAGE Resource is out of sync with the file system: '/SaveFish-Android/project.properties'.
+
+!ENTRY org.eclipse.egit.core 4 0 2012-02-29 14:16:01.662
+!MESSAGE An exception occurred during push on URI https://provemyself@github.com/provemyself/SaveFish.git: An internal Exception occurred during push: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:163)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:227)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:149)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:209)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:446)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:365)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:159)
+	... 4 more
+
+!ENTRY org.eclipse.egit.core 4 0 2012-02-29 14:16:24.132
+!MESSAGE An exception occurred during push on URI https://provemyself@github.com/provemyself/SaveFish.git: An internal Exception occurred during push: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+!STACK 0
+org.eclipse.jgit.api.errors.JGitInternalException: Exception caught during execution of push command
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:163)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:227)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI.execute(PushOperationUI.java:149)
+	at org.eclipse.egit.ui.internal.push.PushOperationUI$1.run(PushOperationUI.java:209)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: org.eclipse.jgit.errors.TransportException: https://provemyself@github.com/provemyself/SaveFish.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:446)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:365)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:130)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1120)
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:159)
+	... 4 more
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-29 14:16:34.702
+!MESSAGE The current branch is not configured for pull
+!STACK 0
+org.eclipse.jgit.api.errors.InvalidConfigurationException: No value for key branch.master.merge found in configuration
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:189)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:83)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:108)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:117)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.run(PullOperationUI.java:92)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.egit.ui 4 0 2012-02-29 14:16:42.712
+!MESSAGE The current branch is not configured for pull
+!STACK 0
+org.eclipse.jgit.api.errors.InvalidConfigurationException: No value for key branch.master.merge found in configuration
+	at org.eclipse.jgit.api.PullCommand.call(PullCommand.java:189)
+	at org.eclipse.egit.core.op.PullOperation$1.run(PullOperation.java:83)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2344)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2326)
+	at org.eclipse.egit.core.op.PullOperation.execute(PullOperation.java:108)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI.execute(PullOperationUI.java:117)
+	at org.eclipse.egit.ui.internal.pull.PullOperationUI$1.run(PullOperationUI.java:92)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
